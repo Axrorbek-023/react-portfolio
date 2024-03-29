@@ -7,7 +7,7 @@ import photo_tort from '../../img/photo_tort.png'
 import photo_besh from '../../img/photo_besh.png'
 import photo_olti from '../../img/photo_olti.png'
 
-function Project(mode) {
+function Project({mode}) {
   return (
     <section className={mode == true ? 'light' : 'dark'}>
         <div class="container">
